@@ -6,23 +6,26 @@
     <title>Usando Dom</title>
     <style>
         body{
-            background-color: blue;
+            background-color: rgb(0, 0, 0);
             color: beige;
             font: normal 15pt Arial;
         }
     </style>
 </head>
 <body>
-    <h1>Vamo aprender DOM, ohh gloriaaa!!! </h1>
-    <p>se liga no live previewwwwww</p>
+    <h1>DEIXA O LIKE E SE INSCREVA, AGORA </h1>
+    <p>somos devs apredendo a progamar </p>
     <p>rapaize eu estou <strong>DEMAISE</strong> slcccccc v3 ❤️🤣❤️ </p>
-    <div> Clique em mim rapaise </div>
+    <div id="msg"> Clique em mim rapaise oi turu bom   </div>
     <br>
     <script>
 
         var p1 = window.document.getElementsByTagName('p')[1]
+        var dvi = document.getElementById('msg')
+        document.write(dvi.innerText)
+        //alert("gato")
+
         
-        alert(p1.innerHTML)
 
     </script>
 </body>
