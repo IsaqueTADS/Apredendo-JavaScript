@@ -7,23 +7,44 @@
     <style>
       body {
         font: normal 20pt Arial;
+        background-color: black;
+      }
+
+      div#centro{
+        margin-top: 200px;
+        margin-left: 650px;
+        text-align: center;
+        background-color: rgb(62, 182, 62);
+        width: 200px;
+        height: 300px;
+        color: rgb(0, 0, 0);
       }
 
       h1 {
         font: normal 30pt Arial;
+        
       }
       div#res1 {
         font: normal 14pt Arial;
         margin-top: 15px;
+        
       }
     </style>
   </head>
   <body>
+
+    <div id="centro">
+
     <h1>Somando dois numeros</h1>
     <input type="number" name="txtn1" id="txtn1" />
     <input type="number" name="txtn2" id="txtn2" />
     <input type="button" value="Somar" onclick="somar()" />
     <div id="res1">Resultado</div>
+      
+    </div>
+
+    
+
     <script>
       function somar() {
         var tn1 = document.getElementById("txtn1");
