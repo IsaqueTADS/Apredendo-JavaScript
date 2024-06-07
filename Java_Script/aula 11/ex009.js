@@ -1,11 +1,13 @@
-var numero = 15
+var pais = 'EUA'
 
+console.log(`Vivendo em ${pais}`)
 
-if (numero < 18){
+if (pais == 'Brasil'){
 
-    console.log('Ele é menor de idade')
+    console.log(`Você é Brasileiro ` )
 
-}else {
+}else{
 
-    console.log('Maior de idadae!')
+    console.log(`Você é estrangeiro`)
 }
+
