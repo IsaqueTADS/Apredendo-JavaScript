@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<style>
+    div#res{
+        margin-top: 15px;
+    }
+
+</style>
+<body>
+    <h1>Você é brasileiro?</h1>
+    <p>Digite seu pais</p>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Enviar" onclick="enviar()">
+    <div id="res">Resposta</div>
+    
+    
+</body>
+
+    <script>
+        function enviar(){
+            var pais = document.getElementById('txtpais').value
+            var res = document.getElementById('res')
+
+            if (pais == 'Brasil'){
+
+                res.innerHTML = (`<p>Se você nasceu no ${pais} você é brasileiro ❤️</p> `)
+
+
+            }else {
+                res.innerHTML = (`<p>Se você nasceu em ${pais} você é estrangeiro 🌍❤️</p>`)
+            }
+            
+            //condição composta
+
+        }
+    </script>
+
+
+</html>

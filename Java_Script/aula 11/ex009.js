@@ -11,3 +11,4 @@ if (pais == 'Brasil'){
     console.log(`Você é estrangeiro`)
 }
 
+//condição composta
